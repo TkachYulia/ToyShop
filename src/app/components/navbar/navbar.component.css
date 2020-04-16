@@ -29,3 +29,11 @@
 .active {
     color: #11c3cf !important;
 }
+@media (max-width: 600px) {
+    .navbar_items a {
+        padding: 0 10px;
+    }
+    .navbar_items__title {
+        padding: 10px;
+    }
+}

@@ -9,6 +9,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ToysListPageComponent } from './pages/toys-list-page/toys-list-page.component';
 import { ToyDetailsComponent } from './pages/toy-details/toy-details.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SingupComponent } from './pages/singup/singup.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ToyDetailsComponent } from './pages/toy-details/toy-details.component';
     NavbarComponent,
     HomePageComponent,
     ToysListPageComponent,
-    ToyDetailsComponent
+    ToyDetailsComponent,
+    LoginComponent,
+    SingupComponent
   ],
   imports: [
     BrowserModule,

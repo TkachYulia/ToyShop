@@ -1,1 +1,20 @@
-<p>toy-details works!</p>
+<div class="info">
+    <div class="left">
+        <div class="info_img"><img src="{{ toy.imageURL }}" alt=""></div>
+        <div class="info_title">{{ toy.name }}</div>
+        <div class="info_desc">Description: {{ toy.description }}</div>
+        <div class="info_price">Price: {{ toy.price }} tg.</div>
+    </div>
+    <div class="right">
+        <div class="title">MAKE AN ORDER</div>
+        <div class="item">
+            <p>Your name</p>
+            <input type="text">
+        </div>
+        <div class="item">
+            <p>Phone number</p>
+            <input type="text">
+        </div>
+        <button>ORDER</button>
+    </div>
+</div>

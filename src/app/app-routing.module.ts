@@ -3,13 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ToysListPageComponent } from './pages/toys-list-page/toys-list-page.component';
 import { ToyDetailsComponent } from './pages/toy-details/toy-details.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SingupComponent } from './pages/singup/singup.component';
 
 
 const routes: Routes = [
   {path: '', redirectTo: '/home-page', pathMatch: 'full'},
+  {path: 'login', component: LoginComponent},
+  {path: 'signup', component: SingupComponent},
   {path: 'home-page', component: HomePageComponent},
   {path: 'category/:path', component: ToysListPageComponent},
-  {path: ':id', component: ToyDetailsComponent}
+  {path: ':id', component: ToyDetailsComponent},
 ];
 
 @NgModule({

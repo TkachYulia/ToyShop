@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToysService } from 'src/app/services/toys.service';
 
 @Component({
   selector: 'app-home-page',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-
-  constructor() { }
+  public toys = []
+  constructor(private ts: ToysService) { }
 
   ngOnInit(): void {
+    this.ts.get().subscribe(toys => {
+      this.toys = toys
+    })
   }
 
 }
