@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Hot Wheels Clippers",
+        "imageURL": "https://images.kz.prom.st/4796160_w280_h280_hot-wheels-mashinki.jpg",
+        "description": "HOT WHEELS ™ is a  fast metal car and a revolutionary brand for boys. For over 40 years, it has represented steep trends in the world of cars from toys and clothes to real-size cars. A symbol of the brand is a line of tuned base cars with a scale of 1:64, designed for speed, dynamics and race. Подробнее: https://poomba.kz/g481762-hot-wheels-mashinki",
+        "price": 22700,
+        "category": "for boys"
+    },
+    {
+        "id": 2,
+        "name": "Toy Guns",
+        "imageURL": "https://images.kz.prom.st/22377175_w280_h280_igrushechnye-pistolety.jpg",
+        "description": "We meticulously choose toy weapons before offering you. All weapons are strong and safe, but nevertheless do not neglect safety measures. Do not shoot toy pistols with bullets at people or animals. Use caution when using caps. Store consultants are always ready to help you choose toy guns for your child.   Подробнее: https://poomba.kz/g615226-igrushechnye-pistolety",
+        "price": 1600,
+        "category": "for boys"
+    },
+    {
+        "id": 3,
+        "name": "My Little Pony",
+        "imageURL": "https://images.kz.prom.st/4827187_w280_h280_my-little-pony.jpg",
+        "description": "Funny animals with big smart eyes and cute faces want to make friends with your baby! The Littlest Pet Shop collection includes a huge variety of animals, both domestic and wild - everyone can find a pet to their liking, and cute swinging heads will not leave anyone indifferent. The child can not part with his favorite toy, because the dimensions allow you to put it in your pocket and carry it everywhere with you. So that the animal is not bored, your baby can collect a collection of friends for him! Now the series also includes the cute Blythe doll, which will help the child look after the pets. Подробнее: https://poomba.kz/g482208-littlest-pet-shop",
+        "price": 5500,
+        "category": "for girls"
+    },
+    {
+        "id": 4,
+        "name": "Crying baby",
+        "imageURL": "https://images.kz.prom.st/89891498_w280_h280_crybabies-plachuschij-mladenets.jpg",
+        "description": "Crying babies from IMC will surprise your child. She cries with real tears, more in the description of the dolls. Подробнее: https://poomba.kz/g4328123-crybabies-plachuschij-mladenets",
+        "price": 5500,
+        "category": "for girls"
+    },
+    {
+        "id": 5,
+        "name": "Bubble ",
+        "imageURL": "https://images.kz.prom.st/47735837_w345_h345_stack-a-bubble-zastyvayuschie-puzyri.jpg",
+        "description": "Summer is in full swing - and I want something so-and-so ... To have fun, simple and - to have a sea of ​​real summer sensations! One of the great options is  a soap bubble festival . Yes, a holiday: any, even the most boring, evening with soap bubbles turns into an adventure. It is fun and beautiful, plus new sensations, new observations, new discoveries ... Подробнее: https://poomba.kz/g796523-mylnye-puzyri",
+        "price": 22700,
+        "category": "bubble"
+    },
+    {
+        "id": 6,
+        "name": "Hot Wheels Clippers",
+        "imageURL": "https://images.kz.prom.st/4796160_w280_h280_hot-wheels-mashinki.jpg",
+        "description": "HOT WHEELS ™ is a  fast metal car and a revolutionary brand for boys. For over 40 years, it has represented steep trends in the world of cars from toys and clothes to real-size cars. A symbol of the brand is a line of tuned base cars with a scale of 1:64, designed for speed, dynamics and race. Подробнее: https://poomba.kz/g481762-hot-wheels-mashinki",
+        "price": 12200,
+        "category": "for boys"
+    },
+    {
+        "id": 7,
+        "name": "Hot Wheels Clippers",
+        "imageURL": "https://images.kz.prom.st/4796160_w280_h280_hot-wheels-mashinki.jpg",
+        "description": "HOT WHEELS ™ is a  fast metal car and a revolutionary brand for boys. For over 40 years, it has represented steep trends in the world of cars from toys and clothes to real-size cars. A symbol of the brand is a line of tuned base cars with a scale of 1:64, designed for speed, dynamics and race. Подробнее: https://poomba.kz/g481762-hot-wheels-mashinki",
+        "price": 4500,
+        "category": "for boys"
+    },
+    {
+        "id": 8,
+        "name": "Hot Wheels Clippers",
+        "imageURL": "https://images.kz.prom.st/4796160_w280_h280_hot-wheels-mashinki.jpg",
+        "description": "HOT WHEELS ™ is a  fast metal car and a revolutionary brand for boys. For over 40 years, it has represented steep trends in the world of cars from toys and clothes to real-size cars. A symbol of the brand is a line of tuned base cars with a scale of 1:64, designed for speed, dynamics and race. Подробнее: https://poomba.kz/g481762-hot-wheels-mashinki",
+        "price": 12500,
+        "category": "for boys"
+    }
+]

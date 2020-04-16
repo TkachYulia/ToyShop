@@ -1,0 +1,9 @@
+<div class="toy">
+    <div *ngFor="let toy of toys">
+        <div class="toy-card" routerLink="/{{toy.id}}">
+            <div class="tc_img"><img src="{{toy.imageURL}}" alt=""></div>
+            <div class="tc_name">{{ toy.name }}</div>
+            <div class="tc_price">{{ toy.price }}</div>
+        </div>
+    </div>
+</div>
