@@ -9,12 +9,12 @@
         <div class="title">MAKE AN ORDER</div>
         <div class="item">
             <p>Your name</p>
-            <input type="text">
+            <input type="text" name="name" [(ngModel)]="userData.name" >
         </div>
         <div class="item">
             <p>Phone number</p>
-            <input type="text">
+            <input type="text" name="phone" [(ngModel)]="userData.phone">
         </div>
-        <button>ORDER</button>
+        <button (click)="onOrder()">ORDER</button>
     </div>
 </div>

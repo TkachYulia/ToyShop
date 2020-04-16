@@ -1,8 +1,10 @@
-.login {
+.admin {
     display: grid;
     align-items: center;
-    justify-items: center;
     grid-gap: 1rem;
+}
+.item {
+    display: grid;
 }
 p {
     margin: 0;
@@ -15,9 +17,4 @@ button {
     cursor: pointer;
     font-weight: bold;
     background: rgb(17, 195, 207);
-}
-.change {
-    font-size: 12px;
-    text-decoration: underline;
-    cursor: pointer;
 }
