@@ -3,6 +3,9 @@ export interface Toys {
     name: string,
     imageURL: string,
     description: string,
-    price: number,
-    category: string
+    price: string,
+    category: {
+        id: number,
+        name: string
+    }
 }

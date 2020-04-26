@@ -19,5 +19,17 @@
         <p>Category</p>
         <input type="text" name="category" [(ngModel)]="toy.category">
     </div>
-    <button (click)="onCreate()">ADD NEW TOY</button>
+        <button (click)="onCreate()">ADD NEW TOY</button>
+    <hr />
+    <div class="list">
+        <div *ngFor="let toy of toyList">
+            <div class="list_item">
+                <div class="list_item__title">
+                    {{toy.name}}
+                </div>
+                <div class="delete" (click)="onDel(toy.id)">del</div>
+                <div class="update" (click)="onUpd(toy.id)">upd</div>
+            </div>
+        </div>
+    </div>
 </div>

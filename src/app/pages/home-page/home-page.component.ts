@@ -11,7 +11,7 @@ export class HomePageComponent implements OnInit {
   constructor(private ts: ToysService) { }
 
   ngOnInit(): void {
-    this.ts.get().subscribe(toys => {
+    this.ts.getToys().subscribe(toys => {
       this.toys = toys
     })
   }

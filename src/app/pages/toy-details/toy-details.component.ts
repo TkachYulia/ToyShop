@@ -12,22 +12,19 @@ export class ToyDetailsComponent implements OnInit {
   public toy
   public finder = this.route.snapshot.paramMap.get('id')
   constructor(private route: ActivatedRoute, private ts: ToysService, private us: UserServiceService) { }
-
-
   userData = {
     name: '',
-    phone: ''
+    phone: '',
+    toy: 0
   }
-  
   ngOnInit(): void {
-    this.ts.get().subscribe(data => {
-      this.toy = data.find(toy => toy.id == parseInt(this.finder) )
+    this.ts.getToyById(this.finder).subscribe(data => {
+      this.toy = data
     })
   }
-
   onOrder(): void {
-    console.log(this.userData)
-    this.us.order(this.userData)
+    this.userData.toy = parseInt(this.finder)
+    this.us.order(this.userData).subscribe()
   }
 
 }
